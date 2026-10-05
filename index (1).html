@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puranjay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Puranjay</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="actions"><a href="#login">Login</a></div>
+  </nav>
+
+  <section id="home">
+    <div class="container">
+      <div class="outer">
+        <div class="left">
+          <h1>Puranjay</h1>
+          <p>I'm learning to build web pages and write code. This page is where I practise layout.</p>
+          <a class="btn" href="#contact">Contact me</a>
+        </div>
+        <div class="right">
+          <div class="mini a"><img src="puru_photo.jpg" alt="Photo of Puranjay"></div>
+          <div class="mini b"></div>
+          <div class="mini c"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Flexbox</li>
+      <li>Grid</li>
+      <li>Java</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="bento">
+      <article class="card feature">
+        <h3>Portfolio page</h3>
+        <p>This page. A sticky nav, a nested grid hero and a different layout for each section.</p>
+        <span class="tag">HTML, CSS</span>
+      </article>
+      <article class="card side-a">
+        <h3>Loop drills</h3>
+        <p>Small Java programs for practising loops.</p>
+        <span class="tag">Java</span>
+      </article>
+      <article class="card side-b">
+        <h3>Next project</h3>
+        <p>Your idea goes here.</p>
+      </article>
+      <article class="card wide">
+        <h3>DSA tracker</h3>
+        <p>Coming up: a place to log the data structures and problems I've finished.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="topics">
+    <h2>Topics used</h2>
+    <div class="notebook">
+      <p class="notebook-title">Every section uses a different layout tool.</p>
+      <ul class="topic-list">
+        <li><strong>Flexbox</strong><span>Skills, topic rows, footer</span></li>
+        <li><strong>CSS grid</strong><span>Nav, hero, project cards</span></li>
+        <li><strong>Nested grids</strong><span>The right side of the hero</span></li>
+        <li><strong>Grid areas</strong><span>Placing the project cards</span></li>
+        <li><strong>Sticky</strong><span>Keeps the nav in view</span></li>
+        <li><strong>Media queries</strong><span>Stacks the layout on phones</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form" action="#" method="post">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="field full">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Puranjay</p>
+    <ul class="footer-links">
+      <li><a href="#home">Top</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
